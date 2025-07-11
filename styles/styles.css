@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'myriadPro_Regular';
+    src: url(../fonts/myriadPro_Regular.OTF);
+}
+
+@font-face {
+    font-family: 'myriadPro_Light';
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -26,10 +36,10 @@ body {
     bottom: -38vw;
     left: 45vw;
     opacity: 0;
-    animation: loguito 2s 2;
+    animation: animation_section1 2s 2;
 }
 
-@keyframes loguito {
+@keyframes animation_section1 {
     0%{
         opacity: 0;
     }
@@ -43,13 +53,85 @@ body {
 
 .section2{
     text-align: center;
+    margin-top: 7vw;
     align-items: center;
+    justify-content: center;
     background-color: white;
     position: absolute;
     background-size: cover;
     border-radius: 3vw;
     width: 46vw;
-    height: 30vw;
-    bottom: -45vw;
+    height: 40vw;
     left: 26vw;
+}
+
+.imgKarioMedia {
+    margin-top: 3vw;
+    width: 4vw;
+    height: 4.5vw;
+}
+
+.text1_section2 {
+    margin-top: 1vw;
+    font-family: 'myriadPro_Regular';
+    font-size: 2.2vw;
+}
+
+.text2_section2 {
+    margin-top: 1vw;
+    font-family: 'myriadPro_Light';
+    font-size: 1.1vw;
+}
+
+.text3_section2 {
+    margin-top: 1vw;
+    margin-left: -29vw;
+    font-family: 'myriadPro_Light';
+    font-size: 1.4vw;
+}
+
+.input1_section2 {
+    width: 35vw;
+    height: 1.7vw;
+    border-radius: 3vw;
+    border-color: black;
+    margin-top: 0.2vw;
+}
+
+.text4_section2 {
+    margin-top: 0.7vw;
+    margin-left: -27.5vw;
+    font-family: 'myriadPro_Light';
+    font-size: 1.3vw;
+}
+
+.input2_section2 {
+    width: 35vw;
+    height: 1.7vw;
+    border-radius: 3vw;
+    border-color: black;
+    margin-top: 0.2vw;
+}
+
+.orangeButton {
+    text-align: center;
+    width: 15vw;
+    height: 2.5vw;
+    background-color: #FF6C2C;
+    border-radius: 2vw;
+    margin-top: 1.5vw;
+    margin-left: 15.5vw;
+}
+
+.text5_section2 {
+    padding-top: 0.5vw;
+    font-family: 'myriadPro_Regular';
+    font-size: 1.2vw;
+    color: white;
+}
+
+.text6_section2 {
+   font-family: 'myriadPro_Light';
+   font-size: 0.7vw;
+   margin-top: 2vw;
 }
