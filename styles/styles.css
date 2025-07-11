@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.section1 {
+    background-image: url(../img/background.png);
+    background-size: cover;
+}
