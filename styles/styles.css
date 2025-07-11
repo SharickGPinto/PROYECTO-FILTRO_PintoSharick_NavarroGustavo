@@ -16,6 +16,8 @@ body {
 }
 
 .section1{
+    text-align: center;
+    align-items: center;
     background: url(./../img/icon.png);
     position: absolute;
     background-size: cover;
@@ -23,4 +25,31 @@ body {
     height: 10vw;
     bottom: -38vw;
     left: 45vw;
+    opacity: 0;
+    animation: loguito 2s 2;
+}
+
+@keyframes loguito {
+    0%{
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.section2{
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    background-size: cover;
+    border-radius: 3vw;
+    width: 40vw;
+    height: 30vw;
+    bottom: -45vw;
+    left: 25vw;
 }
