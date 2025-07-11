@@ -10,10 +10,8 @@ body {
     height: auto;
     overflow-x: hidden;
     position: absolute;
-
-}
-
-.section1 {
-    background-image: url(../img/background.png);
+    background-image: url(./../img/background.png);
     background-size: cover;
+    position: absolute;
+
 }
