@@ -13,5 +13,14 @@ body {
     background-image: url(./../img/background.png);
     background-size: cover;
     position: absolute;
+}
 
+.section1{
+    background: url(./../img/icon.png);
+    position: absolute;
+    background-size: cover;
+    width: 10vw;
+    height: 10vw;
+    bottom: -38vw;
+    left: 45vw;
 }
