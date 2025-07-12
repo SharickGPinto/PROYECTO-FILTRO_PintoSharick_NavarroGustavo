@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'myriadPro_Regular';
+    src: url(../fonts/myriadPro_Regular.OTF);
+}
+
+@font-face {
+    font-family: 'myriadPro_Light';
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+
+p{
+    font-family: 'myriadPro_Regular';
+}
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -39,7 +53,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+
 }
 
 .eliminar{
@@ -76,4 +90,48 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.add{
+    width: 3vw;
+    height: 3vw;  
+}
+
+.reload{
+     width: 3vw;
+    height: 3vw;
+}
+.delete{
+     width: 3vw;
+ height: 3vw;
+}
+
+.iconito{
+ width: 3vw;
+ height: 3vw;
+}
+
+.report{
+     width: 3vw;
+ height: 3vw;
+}
+
+.help{
+     width: 3vw;
+ height: 3vw;
+}
+
+.settings{
+     width: 3vw;
+ height: 3vw;
+}
+
+.noti{
+     width: 3vw;
+ height: 3vw;
+}
+
+.profile{
+     width: 3vw;
+ height: 3vw;
 }
