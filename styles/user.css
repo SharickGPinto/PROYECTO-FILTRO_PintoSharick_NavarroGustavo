@@ -8,13 +8,6 @@
     src: url(../fonts/MyriadPro-Light.otf);
 }
 
-p {
-    font-family: 'myriadPro_Regular';
-}
-
-h5 {
-    font-family: 'myriadPro_Light';
-}
 
 * {
     margin: 0;
@@ -35,7 +28,7 @@ body {
 
 .section1 {
     text-align: center;
-    margin-top: 7vw;
+    margin-top: 10vw;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -43,7 +36,7 @@ body {
     background-size: cover;
     border-radius: 3vw;
     width: 46vw;
-    height: 40vw;
+    height: 28vw;
     left: 26vw;
 }
 
@@ -53,13 +46,26 @@ body {
     height: 4.5vw;
 }
 
-.tex1 {
+.text1 {
     text-align: center;
-    margin-top: -1vw;
+    margin-top: 0.5vw;
+    font-family: 'myriadPro_Regular';
+    font-size: 2.2vw;
 }
 
-.profile {
-    margin-top: -1vw;
-    width: 7vw;
-    height: 7vw;
+.profilePic {
+    margin-top: 1vw;
+    width: 6vw;
+    height: 6vw;
+}
+
+.text2 {
+    font-family: 'myriadPro_Regular';
+    font-size: 2.3vw;
+    margin-top: 1vw;
+}
+
+.text3 {
+    font-family: 'myriadPro_Light';
+    margin-top: 1vw;
 }
