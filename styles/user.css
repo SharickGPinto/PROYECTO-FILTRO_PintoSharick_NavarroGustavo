@@ -7,13 +7,16 @@
     font-family: 'myriadPro_Light';
     src: url(../fonts/MyriadPro-Light.otf);
 }
-p{
+
+p {
     font-family: 'myriadPro_Regular';
 }
-h5{
+
+h5 {
     font-family: 'myriadPro_Light';
 }
-*{
+
+* {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
@@ -25,14 +28,14 @@ body {
     height: auto;
     overflow-x: hidden;
     position: absolute;
-    background-image: url(./../img/background.png);
+    background-image: url(../img/background.png);
     background-size: cover;
     position: absolute;
 }
 
-.section1{
+.section1 {
     text-align: center;
-    margin-top: 20vw;
+    margin-top: 7vw;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -40,23 +43,22 @@ body {
     background-size: cover;
     border-radius: 3vw;
     width: 46vw;
-    height: 30vw;
+    height: 40vw;
     left: 26vw;
 }
 
-.logo{
-    width: 5vw;
-    height: 5vw;
-    margin-top: 2vw;
+.logo {
+    margin-top: 3vw;
+    width: 4vw;
+    height: 4.5vw;
 }
 
-.tex1{
+.tex1 {
     text-align: center;
     margin-top: -1vw;
-
 }
 
-.profile{
+.profile {
     margin-top: -1vw;
     width: 7vw;
     height: 7vw;

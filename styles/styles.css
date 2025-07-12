@@ -142,6 +142,11 @@ body {
     border: none;
 }
 
+.orangeButton:hover {
+    width: 15.1vw;
+    height: 2.6vw;
+}
+
 .text5_section2 {
     font-family: 'myriadPro_Regular';
     font-size: 1.2vw;
