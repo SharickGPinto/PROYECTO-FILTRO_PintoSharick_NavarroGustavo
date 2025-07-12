@@ -63,6 +63,7 @@ body{
 }
 
 .reportar{
+    text-decoration: underline orangered 5px ;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -134,4 +135,28 @@ body{
 .profile{
      width: 3vw;
  height: 3vw;
+}
+.tex1{
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.tex2{
+    text-align: center;
+}
+
+.cuadro{ 
+    text-align: center;
+    margin-top: 7vw;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    background-size: cover;
+    border-radius: 3vw;
+    width: 46vw;
+    height: 25vw;
+    left: 26vw;
+    border: 1px solid black; 
 }
