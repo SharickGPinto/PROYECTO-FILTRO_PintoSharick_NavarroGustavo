@@ -96,6 +96,15 @@ body {
     border-radius: 3vw;
     border-color: black;
     margin-top: 0.2vw;
+    border-width: 0.1vw;
+    padding-left: 1vw;
+    font-family: 'myriadPro_Light';
+    font-size: 1vw;
+}
+
+.input1_section2:focus {
+    border-width: 0.1vw;
+    outline: none;
 }
 
 .text4_section2 {
@@ -111,6 +120,15 @@ body {
     border-radius: 3vw;
     border-color: black;
     margin-top: 0.2vw;
+    border-width: 0.1vw;
+    padding-left: 1vw;
+    font-family: 'myriadPro_Light';
+    font-size: 1vw;
+}
+
+.input2_section2:focus {
+    border-width: 0.1vw;
+    outline: none;
 }
 
 .orangeButton {
@@ -120,18 +138,23 @@ body {
     background-color: #FF6C2C;
     border-radius: 2vw;
     margin-top: 1.5vw;
-    margin-left: 15.5vw;
+    cursor: pointer;
+    border: none;
+}
+
+.orangeButton:hover {
+    width: 15.1vw;
+    height: 2.6vw;
 }
 
 .text5_section2 {
-    padding-top: 0.5vw;
     font-family: 'myriadPro_Regular';
     font-size: 1.2vw;
     color: white;
 }
 
 .text6_section2 {
-   font-family: 'myriadPro_Light';
-   font-size: 0.7vw;
-   margin-top: 2vw;
+    font-family: 'myriadPro_Light';
+    font-size: 0.7vw;
+    margin-top: 2vw;
 }
