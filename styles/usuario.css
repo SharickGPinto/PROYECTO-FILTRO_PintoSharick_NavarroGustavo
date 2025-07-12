@@ -10,6 +10,9 @@
 p{
     font-family: 'myriadPro_Regular';
 }
+h5{
+    font-family: 'myriadPro_Light';
+}
 *{
     margin: 0;
     box-sizing: border-box;
@@ -29,7 +32,7 @@ body {
 
 .section1{
     text-align: center;
-    margin-top: 7vw;
+    margin-top: 20vw;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -37,6 +40,24 @@ body {
     background-size: cover;
     border-radius: 3vw;
     width: 46vw;
-    height: 90vw;
+    height: 30vw;
     left: 26vw;
+}
+
+.logo{
+    width: 5vw;
+    height: 5vw;
+    margin-top: 2vw;
+}
+
+.tex1{
+    text-align: center;
+    margin-top: -1vw;
+
+}
+
+.profile{
+    margin-top: -1vw;
+    width: 7vw;
+    height: 7vw;
 }
