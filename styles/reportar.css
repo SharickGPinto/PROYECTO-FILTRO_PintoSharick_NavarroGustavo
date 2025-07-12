@@ -148,7 +148,7 @@ body{
 
 .cuadro{ 
     text-align: center;
-    margin-top: 7vw;
+    margin-top: 6vw;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -159,4 +159,14 @@ body{
     height: 25vw;
     left: 26vw;
     border: 1px solid black; 
+}
+
+.orangeButton{
+    text-align: center;
+    width: 15vw;
+    height: 2.5vw;
+    background-color: #FF6C2C;
+    border-radius: 2vw;
+    margin-top: 35vw;
+    margin-left: 42vw;
 }
