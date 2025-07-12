@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    position: absolute;
+    background-size: cover;
+    position: absolute;
+}
+
+.cabecera{
+    margin-top: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.añadir{
+    background: url(./../img/addIcon.png);
+    width: 3vw;
+    height:3vw; 
+    background-size: cover;
+}
+
+.refrescar{
+    width: 5vw;
+    height:5vw; 
+    background-size: cover;
+}
+
+
+.icon{
+    background: url(./../img/icon.png);
+    width: 3vw;
+    height:3vw;
+    background-size:cover ;
+    position: relative;
+}
+
+.eliminar{
+    width: 5vw;
+    height:5vw; 
+}
+
+.reportar{
+    width: 5vw;
+    height:5vw; 
+}
+
+.ayuda{
+    width: 5vw;
+    height:5vw; 
+}
+
+.configuracion{
+    width: 5vw;
+    height:5vw; 
+}
