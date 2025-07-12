@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'myriadPro_Regular';
+    src: url(../fonts/myriadPro_Regular.OTF);
+}
+
+@font-face {
+    font-family: 'myriadPro_Light';
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+p{
+    font-family: 'myriadPro_Regular';
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    position: absolute;
+    background-image: url(./../img/background.png);
+    background-size: cover;
+    position: absolute;
+}
+
+.section1{
+    text-align: center;
+    margin-top: 7vw;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    background-size: cover;
+    border-radius: 3vw;
+    width: 46vw;
+    height: 90vw;
+    left: 26vw;
+}
