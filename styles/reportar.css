@@ -129,14 +129,14 @@ body {
     height: 3vw;
 }
 
-.tex1 {
+.text1 {
     font-family: 'inter';
     font-size: 2.5vw;
     text-align: center;
     margin-top: 6vw;
 }
 
-.tex2 {
+.text2 {
     text-align: center;
     font-family: 'inter';
     font-size: 1vw;
@@ -144,26 +144,46 @@ body {
 }
 
 .cuadro {
-    text-align: center;
-    margin-top: 6vw;
-    align-items: center;
-    justify-content: center;
+    margin-top: 2vw;
     background-color: white;
     position: absolute;
-    background-size: cover;
-    border-radius: 3vw;
+    border-radius: 1vw;
     width: 46vw;
     height: 25vw;
     left: 26vw;
-    border: 1px solid black;
+    border: 0.1vw solid black;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    resize: none;
+    font-family: 'inter';
+    font-size: 1.1vw;
+}
+
+.cuadro:focus {
+    border-width: 0.1vw;
+    outline: none;
 }
 
 .orangeButton {
     text-align: center;
-    width: 15vw;
-    height: 2.5vw;
+    width: 16vw;
+    height: 3vw;
     background-color: #FF6C2C;
     border-radius: 2vw;
-    margin-top: 35vw;
+    margin-top: 28vw;
     margin-left: 42vw;
+    border: none;
+    cursor: pointer;
+}
+
+.orangeButton:hover {
+    width: 16.1vw;
+    height: 3,1vw;
+}
+
+.text3 {
+    font-family: 'inter';
+    color: white;
+    font-size: 1vw;
+    
 }
