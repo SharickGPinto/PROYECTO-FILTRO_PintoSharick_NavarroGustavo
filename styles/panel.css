@@ -167,3 +167,49 @@ body{
     padding-top: 1vw;
     padding-bottom: 1vw;
 }
+
+.grupo2{
+    width: 100%;
+    height: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    font-family: 'inter';
+    font-size: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 14vw;
+    padding-bottom: 7vw;   
+}
+
+
+.grupo3{
+    width: 100%;
+    height: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    font-family: 'inter';
+    font-size: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 23vw;
+    padding-bottom: 7vw;   
+}
+
+.grupo4{
+        width: 100%;
+    height: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    font-family: 'inter';
+    font-size: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 32vw;
+    padding-bottom: 7vw;  
+}
