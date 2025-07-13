@@ -256,3 +256,13 @@ body{
     padding-top: 59vw;
     padding-bottom: 7vw;   
 }
+
+.orangeButton{
+    text-align: center;
+    width: 15vw;
+    height: 2.5vw;
+    background-color: #FF6C2C;
+    border-radius: 2vw;
+    margin-top: 32vw;
+    margin-left: 42vw;
+}
