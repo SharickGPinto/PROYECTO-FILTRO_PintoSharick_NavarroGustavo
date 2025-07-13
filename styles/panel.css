@@ -63,8 +63,6 @@ body{
 
 .reportar {
     gap: 0.6vw;
-    text-decoration: underline orangered 0.2vw;
-    text-underline-offset: 0.4vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -200,7 +198,7 @@ body{
 }
 
 .grupo4{
-        width: 100%;
+    width: 100%;
     height: 1vw;
     display: flex;
     flex-direction: row;
@@ -212,4 +210,49 @@ body{
     padding-right: 3vw;
     padding-top: 32vw;
     padding-bottom: 7vw;  
+}
+
+.grupo5{
+    width: 100%;
+    height: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    font-family: 'inter';
+    font-size: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 42vw;
+    padding-bottom: 7vw;     
+}
+
+.grupo6{
+    width: 100%;
+    height: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    font-family: 'inter';
+    font-size: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 50vw;
+    padding-bottom: 7vw;
+}
+
+.grupo7{
+    width: 100%;
+    height: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    font-family: 'inter';
+    font-size: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 59vw;
+    padding-bottom: 7vw;   
 }
