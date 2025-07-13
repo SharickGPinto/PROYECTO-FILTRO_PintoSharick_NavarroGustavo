@@ -141,3 +141,185 @@ body {
     font-size: 1vw;
     margin-top: 0.5vw;
 }
+
+.grupo1{
+    font-family: 'inter';
+    font-size: 1vw;
+    margin-top: 0.5vw;
+    margin: 2vw;
+}
+
+.input1{
+    width: 90vw;
+    height: 1.7vw;
+    border-radius: 3vw;
+    border-color: black;
+    margin-top: -1vw;
+    border-width: 0.1vw;
+    padding-left: 1vw;
+    font-family: 'myriadPro_Light';
+    font-size: 1vw;
+}
+
+.grupo2{
+    margin: 2vw;
+    font-family: 'inter';
+    font-size: 1vw;
+    margin-top: 1vw;    
+}
+
+.input2{
+    width: 90vw;
+    height: 1.7vw;
+    border-radius: 3vw;
+    border-color: black;
+    margin-top: -1vw;
+    border-width: 0.1vw;
+    padding-left: 1vw;
+    font-family: 'myriadPro_Light';
+    font-size: 1vw;
+}
+
+.grupo3{
+    margin: 2vw;
+    font-family: 'inter';
+    font-size: 1vw;
+    margin-top: 1vw;    
+}
+
+.input3{
+    width: 90vw;
+    height: 1.7vw;
+    border-radius: 3vw;
+    border-color: black;
+    margin-top: -1vw;
+    border-width: 0.1vw;
+    padding-left: 1vw;
+    font-family: 'myriadPro_Light';
+    font-size: 1vw;
+}
+
+.grupo4{
+    margin: 2vw;
+    font-family: 'inter';
+    font-size: 1vw;
+    margin-top: 1vw;    
+    justify-content: flex-start;
+    position: fixed;
+    flex-direction: row;  
+    display: grid;
+    grid-template-areas: "text4 text5" "input4 input5";
+    grid-template-columns: auto auto;
+    gap: 1vw;
+    position: relative;
+}
+
+.input4{
+    width: 45vw;
+    height: 1.7vw;
+    border-radius: 3vw;
+    border-color: black;
+    margin-top: -1vw;
+    border-width: 0.1vw;
+    padding-left: 1vw;
+    font-family: 'myriadPro_Light';
+    font-size: 1vw;
+}
+
+.input5{
+    width: 44vw;
+    height: 1.7vw;
+    border-radius: 3vw;
+    border-color: black;
+    margin-top: -1vw;
+    border-width: 0.1vw;
+    padding-left: 1vw;
+    font-family: 'myriadPro_Light';
+    font-size: 1vw;
+}
+
+
+.grupo5{
+    margin: 2vw;
+    font-family: 'inter';
+    font-size: 1vw;
+    margin-top: 1vw;  
+}
+
+.input6{
+    width: 90vw;
+    height: 1.7vw;
+    border-radius: 3vw;
+    border-color: black;
+    margin-top: -1vw;
+    border-width: 0.1vw;
+    padding-left: 1vw;
+    font-family: 'myriadPro_Light';
+    font-size: 1vw;
+}
+
+.grupo6{
+    margin: 2vw;
+    font-family: 'inter';
+    font-size: 1vw;
+      
+}
+
+.input7{
+    width: 90vw;
+    height: 1.7vw;
+    border-radius: 3vw;
+    border-color: black;
+    margin-top: -1vw;
+    border-width: 0.1vw;
+    padding-left: 1vw;
+    font-family: 'myriadPro_Light';
+    font-size: 1vw;
+}
+.grupo7{
+    margin: 2vw;
+    font-family: 'inter';
+    font-size: 1vw;
+      
+}
+
+.input8{
+    width: 90vw;
+    height: 1.7vw;
+    border-radius: 3vw;
+    border-color: black;
+    margin-top: -1vw;
+    border-width: 0.1vw;
+    padding-left: 1vw;
+    font-family: 'myriadPro_Light';
+    font-size: 1vw;
+}
+
+.grupo8{
+    margin: 2vw;
+    font-family: 'inter';
+    font-size: 1vw; 
+}
+
+.input9{
+    width: 90vw;
+    height: 1.7vw;
+    border-radius: 3vw;
+    border-color: black;
+    margin-top: -1vw;
+    border-width: 0.1vw;
+    padding-left: 1vw;
+    font-family: 'myriadPro_Light';
+    font-size: 1vw;
+}
+
+.orangeButton{
+    text-align: center;
+    width: 15vw;
+    height: 2.5vw;
+    background-color: #FF6C2C;
+    border-radius: 2vw;
+    margin-top: 2vw;
+    margin-left: 80vw;
+    color: white;
+}
