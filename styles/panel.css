@@ -1,19 +1,6 @@
 @font-face {
-    font-family: 'myriadPro_Regular';
+    font-family: 'inter';
     src: url(../fonts/myriadPro_Regular.OTF);
-}
-
-@font-face {
-    font-family: 'myriadPro_Light';
-    src: url(../fonts/MyriadPro-Light.otf);
-}
-
-p{
-    font-family: 'myriadPro_Regular';
-}
-
-h4{
-    font-family: 'myriadPro_Light';
 }
 
 *{
@@ -31,128 +18,130 @@ body{
     position: absolute;
 }
 
-.cabecera{
+.topBar {
     width: 100%;
-    height: 7vh;
+    height: 4vw;
     display: flex;
     flex-direction: row;
-    border-bottom: 6px solid black;
+    border-bottom: 0.1vw solid black;
     justify-content: space-between;
+    position: fixed;
+    font-family: 'inter';
+    font-size: 1.1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 
-.añadir{
+.añadir {
+    gap: 0.6vw;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.refrescar{
+.refrescar {
+    gap: 0.6vw;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-
-.icon{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-}
-
-.eliminar{
+.icon {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.reportar{
-    text-decoration: underline orangered 5px ;
+.eliminar {
+    gap: 0.6vw;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.ayuda{
+.reportar {
+    gap: 0.6vw;
+    text-decoration: underline orangered 0.2vw;
+    text-underline-offset: 0.4vw;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.configuracion{
+.ayuda {
+    gap: 0.6vw;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.notificacion{
+.PNS {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 1vw;
 }
 
-.perfil{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.add {
+    width: 1.5vw;
+    height: 1.5vw;
 }
 
-.add{
+.reload {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.delete {
+    width: 1.25vw;
+    height: 1.5vw;
+}
+
+.iconito {
+    width: 2.5vw;
+    height: 2vw;
+}
+
+.report {
+    width: 1.6vw;
+    height: 1.5vw;
+}
+
+.help {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.settings {
+    width: 1.3vw;
+    height: 1.3vw;
+}
+
+.noti {
+    width: 1.4vw;
+    height: 1.3vw;
+}
+
+.profile {
     width: 3vw;
-    height: 3vw;  
-}
-
-.reload{
-     width: 3vw;
     height: 3vw;
 }
-.delete{
-     width: 3vw;
- height: 3vw;
-}
 
-.iconito{
- width: 3vw;
- height: 3vw;
-}
-
-.report{
-     width: 3vw;
- height: 3vw;
-}
-
-.help{
-     width: 3vw;
- height: 3vw;
-}
-
-.settings{
-     width: 3vw;
- height: 3vw;
-}
-
-.noti{
-     width: 3vw;
- height: 3vw;
-}
-
-.profile{
-     width: 3vw;
- height: 3vw;
-}
 
 .text1{
-    font-size: 5vw;
+    font-family: 'inter';
+    font-size: 2.5vw;
     text-align: center;
-    margin-top: 5vw;
-    display: flex;
-    flex-direction: column;
+    margin-top: 6vw;
 }
 
 .text2{
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    font-family: 'inter';
+    font-size: 1vw;
+    margin-top: 0.5vw;
 }
 
 .gridp{
