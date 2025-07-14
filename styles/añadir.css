@@ -163,7 +163,7 @@ body {
     margin-left: 5.4vw;
 }
 
-.input1{
+.input1 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
@@ -176,10 +176,10 @@ body {
 }
 
 
-.grupo2{
+.grupo2 {
     margin-top: 0.3vw;
     font-family: 'inter';
-    font-size: 1vw;  
+    font-size: 1vw;
 }
 
 .text4 {
@@ -188,7 +188,7 @@ body {
     margin-left: 5.4vw;
 }
 
-.input2{
+.input2 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
@@ -199,10 +199,10 @@ body {
     font-size: 0.9vw;
 }
 
-.grupo3{
+.grupo3 {
     font-family: 'inter';
     font-size: 1vw;
-    margin-top: 0.3vw;    
+    margin-top: 0.3vw;
 }
 
 .text5 {
@@ -211,7 +211,7 @@ body {
     margin-left: 5.4vw;
 }
 
-.input3{
+.input3 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
@@ -222,13 +222,13 @@ body {
     font-size: 0.9vw;
 }
 
-.grupo4{
+.grupo4 {
     font-family: 'inter';
     font-size: 1vw;
-    margin-top: 0.3vw;    
+    margin-top: 0.3vw;
     justify-content: flex-start;
     position: fixed;
-    flex-direction: row;  
+    flex-direction: row;
     display: grid;
     grid-template-areas: "text4 text5" "input4 input5";
     grid-template-columns: auto auto;
@@ -236,7 +236,7 @@ body {
     position: relative;
 }
 
-.input4{
+.input4 {
     width: 45vw;
     height: 1.7vw;
     border-radius: 3vw;
@@ -249,7 +249,12 @@ body {
     margin-top: -0.9vw;
 }
 
-.input5{
+.text5 {
+    text-align: left;
+    margin-left: 0.4vw;
+}
+
+.input5 {
     width: 44vw;
     height: 1.7vw;
     border-radius: 3vw;
@@ -262,47 +267,35 @@ body {
 }
 
 
-.grupo5{
+.grupo5 {
     font-family: 'inter';
     font-size: 1vw;
-    margin-top: 1vw;  
+    margin-top: 0.3vw;
 }
 
-.input6{
+.input6 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
+    font-family: 'inter_light';
     font-size: 1vw;
 }
 
-.grupo6{
+.text6 {
+    text-align: left;
+    margin-left: 5.4vw;
+}
+
+.grupo6 {
     font-family: 'inter';
     font-size: 1vw;
-      
+    margin-top: 0.3vw;
 }
 
-.input7{
-    width: 90vw;
-    height: 1.7vw;
-    border-radius: 3vw;
-    border-color: black;
-    margin-top: -1vw;
-    border-width: 0.1vw;
-    padding-left: 1vw;
-    font-family: 'myriadPro_Light';
-    font-size: 1vw;
-}
-.grupo7{
-    font-family: 'inter';
-    font-size: 1vw;
-      
-}
-
-.input8{
+.input7 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
@@ -314,12 +307,29 @@ body {
     font-size: 1vw;
 }
 
-.grupo8{
+.grupo7 {
     font-family: 'inter';
-    font-size: 1vw; 
+    font-size: 1vw;
+    margin-top: 0.3vw;
 }
 
-.input9{
+.input8 {
+    width: 90vw;
+    height: 1.7vw;
+    border-radius: 3vw;
+    border-color: black;
+    border-width: 0.1vw;
+    padding-left: 1vw;
+    font-family: 'inter_light';
+    font-size: 1vw;
+}
+
+.grupo8 {
+    font-family: 'inter';
+    font-size: 1vw;
+}
+
+.input9 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
@@ -327,11 +337,11 @@ body {
     margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
+    font-family: 'inter_light';
     font-size: 1vw;
 }
 
-.orangeButton{
+.orangeButton {
     text-align: center;
     width: 15vw;
     height: 2.5vw;
