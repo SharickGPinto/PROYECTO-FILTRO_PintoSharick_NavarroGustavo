@@ -1,4 +1,9 @@
 @font-face {
+    font-family: 'inter_light';
+    src: url(../fonts/Inter_18pt-Light.ttf);
+}
+
+@font-face {
     font-family: 'inter';
     src: url(../fonts/Inter_18pt-Regular.ttf);
 }
@@ -16,6 +21,9 @@ body {
     position: absolute;
     background-size: cover;
     position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .topBar {
@@ -128,6 +136,7 @@ body {
     width: 3vw;
     height: 3vw;
 }
+
 .text1 {
     font-family: 'inter';
     font-size: 2.5vw;
@@ -142,71 +151,84 @@ body {
     margin-top: 0.5vw;
 }
 
-.grupo1{
+.grupo1 {
     font-family: 'inter';
     font-size: 1vw;
     margin-top: 0.5vw;
-    margin: 2vw;
 }
 
-.input1{
+.text3 {
+    text-align: left;
+    margin-bottom: 0.1vw;
+    margin-left: 5.4vw;
+}
+
+.input1 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
-    font-size: 1vw;
+    padding-top: 0.2vw;
+    font-family: 'inter_light';
+    font-size: 0.9vw;
 }
 
-.grupo2{
-    margin: 2vw;
+
+.grupo2 {
+    margin-top: 0.3vw;
     font-family: 'inter';
     font-size: 1vw;
-    margin-top: 1vw;    
 }
 
-.input2{
+.text4 {
+    text-align: left;
+    margin-bottom: 0.1vw;
+    margin-left: 5.4vw;
+}
+
+.input2 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
-    font-size: 1vw;
+    font-family: 'inter_light';
+    font-size: 0.9vw;
 }
 
-.grupo3{
-    margin: 2vw;
+.grupo3 {
     font-family: 'inter';
     font-size: 1vw;
-    margin-top: 1vw;    
+    margin-top: 0.3vw;
 }
 
-.input3{
+.text5 {
+    text-align: left;
+    margin-bottom: 0.1vw;
+    margin-left: 5.4vw;
+}
+
+.input3 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
-    font-size: 1vw;
+    font-family: 'inter_light';
+    font-size: 0.9vw;
 }
 
-.grupo4{
-    margin: 2vw;
+.grupo4 {
     font-family: 'inter';
     font-size: 1vw;
-    margin-top: 1vw;    
+    margin-top: 0.3vw;
     justify-content: flex-start;
     position: fixed;
-    flex-direction: row;  
+    flex-direction: row;
     display: grid;
     grid-template-areas: "text4 text5" "input4 input5";
     grid-template-columns: auto auto;
@@ -214,106 +236,127 @@ body {
     position: relative;
 }
 
-.input4{
+.input4 {
     width: 45vw;
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
+    font-family: 'inter_light';
     font-size: 1vw;
+    margin-left: 5vw;
+    margin-top: -0.9vw;
 }
 
-.input5{
+.text5 {
+    text-align: left;
+    margin-left: 0.4vw;
+}
+
+.input5 {
     width: 44vw;
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
+    font-family: 'inter_light';
     font-size: 1vw;
+    margin-top: -0.9vw;
 }
 
 
-.grupo5{
-    margin: 2vw;
+.grupo5 {
     font-family: 'inter';
     font-size: 1vw;
-    margin-top: 1vw;  
+    margin-top: 0.3vw;
 }
 
-.input6{
+.input6 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
+    font-family: 'inter_light';
     font-size: 1vw;
 }
 
-.grupo6{
-    margin: 2vw;
+.text6 {
+    text-align: left;
+    margin-left: 5.4vw;
+}
+
+.grupo6 {
     font-family: 'inter';
     font-size: 1vw;
-      
+    margin-top: 0.3vw;
 }
 
-.input7{
+.text7 {
+    text-align: left;
+    margin-left: 5.35vw;
+}
+
+.input7 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
+    font-family: 'inter_light';
     font-size: 1vw;
-}
-.grupo7{
-    margin: 2vw;
-    font-family: 'inter';
-    font-size: 1vw;
-      
 }
 
-.input8{
+.grupo7 {
+    font-family: 'inter';
+    font-size: 1vw;
+    margin-top: 0.3vw;
+}
+
+.text8 {
+    text-align: left;
+    margin-left: 5.35vw;
+}
+
+.input8 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
+    font-family: 'inter_light';
     font-size: 1vw;
 }
 
-.grupo8{
-    margin: 2vw;
+.grupo8 {
     font-family: 'inter';
-    font-size: 1vw; 
+    font-size: 1vw;
+    margin-top: 0.3vw;
 }
 
-.input9{
+.text9 {
+    text-align: left;
+    margin-left: 5.35vw;
+}
+
+
+.input9 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
+    font-family: 'inter_light';
     font-size: 1vw;
 }
 
-.orangeButton{
+.orangeButton {
     text-align: center;
     width: 15vw;
     height: 2.5vw;
@@ -322,4 +365,19 @@ body {
     margin-top: 2vw;
     margin-left: 80vw;
     color: white;
+    outline: none;
+    border: none;
+    margin-right: 4.2vw;
+    cursor: pointer;
+}
+
+.orangeButton:hover {
+    width: 15.1vw;
+    height: 2.6vw;
+    font-size: 1.1vw;
+}
+
+.text10 {
+    font-family: 'inter';
+    font-size: 1vw;
 }
