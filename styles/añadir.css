@@ -295,15 +295,19 @@ body {
     margin-top: 0.3vw;
 }
 
+.text7 {
+    text-align: left;
+    margin-left: 5.35vw;
+}
+
 .input7 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
+    font-family: 'inter_light';
     font-size: 1vw;
 }
 
@@ -311,6 +315,11 @@ body {
     font-family: 'inter';
     font-size: 1vw;
     margin-top: 0.3vw;
+}
+
+.text8 {
+    text-align: left;
+    margin-left: 5.35vw;
 }
 
 .input8 {
@@ -327,14 +336,20 @@ body {
 .grupo8 {
     font-family: 'inter';
     font-size: 1vw;
+    margin-top: 0.3vw;
 }
+
+.text9 {
+    text-align: left;
+    margin-left: 5.35vw;
+}
+
 
 .input9 {
     width: 90vw;
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
     font-family: 'inter_light';
@@ -350,4 +365,19 @@ body {
     margin-top: 2vw;
     margin-left: 80vw;
     color: white;
+    outline: none;
+    border: none;
+    margin-right: 4.2vw;
+    cursor: pointer;
+}
+
+.orangeButton:hover {
+    width: 15.1vw;
+    height: 2.6vw;
+    font-size: 1.1vw;
+}
+
+.text10 {
+    font-family: 'inter';
+    font-size: 1vw;
 }
