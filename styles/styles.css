@@ -24,11 +24,21 @@ body {
     background-size: cover;
     position: absolute;
 }
-
+.imagencita{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    background-size: cover;
+    width: 10vw;
+    height: 10vw;
+    bottom: -38vw;
+    left: 45vw;
+    opacity: 0;
+    animation: animation_section1 2s 2;   
+}
 .section1{
     text-align: center;
     align-items: center;
-    background: url(./../img/icon.png);
     position: absolute;
     background-size: cover;
     width: 10vw;
