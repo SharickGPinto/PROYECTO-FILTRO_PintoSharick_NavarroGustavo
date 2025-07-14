@@ -1,4 +1,9 @@
 @font-face {
+    font-family: 'inter_light';
+    src: url(../fonts/Inter_18pt-Light.ttf);
+}
+
+@font-face {
     font-family: 'inter';
     src: url(../fonts/Inter_18pt-Regular.ttf);
 }
@@ -16,6 +21,9 @@ body {
     position: absolute;
     background-size: cover;
     position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .topBar {
@@ -128,6 +136,7 @@ body {
     width: 3vw;
     height: 3vw;
 }
+
 .text1 {
     font-family: 'inter';
     font-size: 2.5vw;
@@ -142,11 +151,16 @@ body {
     margin-top: 0.5vw;
 }
 
-.grupo1{
+.grupo1 {
     font-family: 'inter';
     font-size: 1vw;
     margin-top: 0.5vw;
-    margin: 2vw;
+}
+
+.text3 {
+    text-align: left;
+    margin-bottom: 0.1vw;
+    margin-left: 5.4vw;
 }
 
 .input1{
@@ -154,18 +168,24 @@ body {
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
-    font-size: 1vw;
+    padding-top: 0.2vw;
+    font-family: 'inter_light';
+    font-size: 0.9vw;
 }
 
+
 .grupo2{
-    margin: 2vw;
+    margin-top: 0.3vw;
     font-family: 'inter';
-    font-size: 1vw;
-    margin-top: 1vw;    
+    font-size: 1vw;  
+}
+
+.text4 {
+    text-align: left;
+    margin-bottom: 0.1vw;
+    margin-left: 5.4vw;
 }
 
 .input2{
@@ -173,18 +193,22 @@ body {
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
-    font-size: 1vw;
+    font-family: 'inter_light';
+    font-size: 0.9vw;
 }
 
 .grupo3{
-    margin: 2vw;
     font-family: 'inter';
     font-size: 1vw;
-    margin-top: 1vw;    
+    margin-top: 0.3vw;    
+}
+
+.text5 {
+    text-align: left;
+    margin-bottom: 0.1vw;
+    margin-left: 5.4vw;
 }
 
 .input3{
@@ -192,18 +216,16 @@ body {
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
-    font-size: 1vw;
+    font-family: 'inter_light';
+    font-size: 0.9vw;
 }
 
 .grupo4{
-    margin: 2vw;
     font-family: 'inter';
     font-size: 1vw;
-    margin-top: 1vw;    
+    margin-top: 0.3vw;    
     justify-content: flex-start;
     position: fixed;
     flex-direction: row;  
@@ -219,11 +241,12 @@ body {
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
+    font-family: 'inter_light';
     font-size: 1vw;
+    margin-left: 5vw;
+    margin-top: -0.9vw;
 }
 
 .input5{
@@ -231,16 +254,15 @@ body {
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
-    font-family: 'myriadPro_Light';
+    font-family: 'inter_light';
     font-size: 1vw;
+    margin-top: -0.9vw;
 }
 
 
 .grupo5{
-    margin: 2vw;
     font-family: 'inter';
     font-size: 1vw;
     margin-top: 1vw;  
@@ -251,7 +273,6 @@ body {
     height: 1.7vw;
     border-radius: 3vw;
     border-color: black;
-    margin-top: -1vw;
     border-width: 0.1vw;
     padding-left: 1vw;
     font-family: 'myriadPro_Light';
@@ -259,7 +280,6 @@ body {
 }
 
 .grupo6{
-    margin: 2vw;
     font-family: 'inter';
     font-size: 1vw;
       
@@ -277,7 +297,6 @@ body {
     font-size: 1vw;
 }
 .grupo7{
-    margin: 2vw;
     font-family: 'inter';
     font-size: 1vw;
       
@@ -296,7 +315,6 @@ body {
 }
 
 .grupo8{
-    margin: 2vw;
     font-family: 'inter';
     font-size: 1vw; 
 }
