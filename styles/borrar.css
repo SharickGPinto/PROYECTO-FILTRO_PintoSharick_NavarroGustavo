@@ -50,6 +50,31 @@ body {
     align-items: center;
 }
 
+.eliminar {
+    gap: 0.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: underline orangered 0.2vw;
+    text-underline-offset: 0.4vw;
+}
+
+.reportar {
+    gap: 0.6vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ayuda {
+    gap: 0.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
 .añadir .enlace{
     display: flex;
     flex-direction: row;
@@ -100,7 +125,6 @@ body {
     align-items: center;
     text-decoration: none;
 }
-
 .PNS {
     display: flex;
     flex-direction: row;
