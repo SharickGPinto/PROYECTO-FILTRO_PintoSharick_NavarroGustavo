@@ -211,3 +211,391 @@ body {
     color: white;
     font-size: 1vw;
 }
+
+/* pc */
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .topBar {
+        width: 100%;
+        height: 4vw;
+        display: flex;
+        flex-direction: row;
+        border-bottom: 0.1vw solid black;
+        justify-content: space-between;
+        position: fixed;
+        font-family: 'inter';
+        font-size: 1.1vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    .añadir {
+        gap: 0.6vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .refrescar {
+        gap: 0.6vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .eliminar {
+        gap: 0.6vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .reportar {
+        gap: 0.6vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .ayuda {
+        gap: 0.6vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: underline orangered 0.2vw;
+        text-underline-offset: 0.4vw;
+    }
+
+    .PNS {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1vw;
+    }
+
+    .add {
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+
+    .reload {
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+
+    .delete {
+        width: 1.25vw;
+        height: 1.5vw;
+    }
+
+    .iconito {
+        width: 2.5vw;
+        height: 2vw;
+    }
+
+    .report {
+        width: 1.6vw;
+        height: 1.5vw;
+    }
+
+    .help {
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+
+    .settings {
+        width: 1.3vw;
+        height: 1.3vw;
+    }
+
+    .noti {
+        width: 1.4vw;
+        height: 1.3vw;
+    }
+
+    .profile {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .text1 {
+        font-family: 'inter';
+        font-size: 2.5vw;
+        text-align: center;
+        margin-top: 6vw;
+    }
+
+    .text2 {
+        text-align: center;
+        font-family: 'inter';
+        font-size: 1vw;
+        margin-top: 0.5vw;
+    }
+
+    .cuadro1 {
+        margin-top: 1vw;
+        background-color: white;
+        position: absolute;
+        border-radius: 1vw;
+        width: 46vw;
+        height: 3vw;
+        left: 26vw;
+        border: 0.1vw solid black;
+        padding-left: 1vw;
+        padding-top: 0.7vw;
+        resize: none;
+        font-family: 'inter';
+        font-size: 1.1vw;
+        text-align: center;
+    }
+
+    .cuadro1:focus {
+        border-width: 0.1vw;
+        outline: none;
+    }
+
+    .cuadro {
+        margin-top: 5vw;
+        background-color: white;
+        position: absolute;
+        border-radius: 1vw;
+        width: 46vw;
+        height: 25vw;
+        left: 26vw;
+        border: 0.1vw solid black;
+        padding-left: 1vw;
+        padding-top: 1vw;
+        resize: none;
+        font-family: 'inter';
+        font-size: 1.1vw;
+    }
+
+    .cuadro:focus {
+        border-width: 0.1vw;
+        outline: none;
+    }
+
+    .orangeButton {
+        text-align: center;
+        width: 16vw;
+        height: 3vw;
+        background-color: #FF6C2C;
+        border-radius: 2vw;
+        margin-top: 31vw;
+        margin-left: 42vw;
+        border: none;
+        cursor: pointer;
+    }
+
+    .orangeButton:hover {
+        width: 16.1vw;
+        height: 3,1vw;
+    }
+
+    .text3 {
+        font-family: 'inter';
+        color: white;
+        font-size: 1vw;
+    }
+}
+
+/* celular */
+@media screen and (max-width: 430px) and (max-height: 936px) {
+    .topBar {
+        width: 100%;
+        height: 12vw;
+        display: flex;
+        flex-direction: row;
+        border-bottom: 0.3vw solid black;
+        justify-content: space-between;
+        position: fixed;
+        font-family: 'inter';
+        font-size: 3.5vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+
+    .añadir {
+        gap: 2vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .refrescar {
+        gap: 2vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .eliminar {
+        gap: 2vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .reportar {
+        gap: 2vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .ayuda {
+        gap: 2vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: underline orangered 0.6vw;
+        text-underline-offset: 1.2vw;
+    }
+
+    .PNS {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3vw;
+    }
+
+    .add {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .reload {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .delete {
+        width: 4.5vw;
+        height: 5vw;
+    }
+
+    .iconito {
+        width: 8vw;
+        height: 6vw;
+    }
+
+    .report {
+        width: 5.5vw;
+        height: 5vw;
+    }
+
+    .help {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .settings {
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+
+    .noti {
+        width: 4.8vw;
+        height: 4.5vw;
+    }
+
+    .profile {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    .text1 {
+        font-family: 'inter';
+        font-size: 8vw;
+        text-align: center;
+        margin-top: 18vw;
+    }
+
+    .text2 {
+        text-align: center;
+        font-family: 'inter';
+        font-size: 3.5vw;
+        margin-top: 1.5vw;
+    }
+
+    .cuadro1 {
+        margin-top: 3vw;
+        background-color: white;
+        position: absolute;
+        border-radius: 3vw;
+        width: 80vw;
+        height: 10vw;
+        left: 10vw;
+        border: 0.3vw solid black;
+        padding-left: 3vw;
+        padding-top: 2.5vw;
+        resize: none;
+        font-family: 'inter';
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    .cuadro1:focus {
+        border-width: 0.3vw;
+        outline: none;
+    }
+
+    .cuadro {
+        margin-top: 15vw;
+        background-color: white;
+        position: absolute;
+        border-radius: 3vw;
+        width: 80vw;
+        height: 65vw;
+        left: 10vw;
+        border: 0.3vw solid black;
+        padding-left: 3vw;
+        padding-top: 3vw;
+        resize: none;
+        font-family: 'inter';
+        font-size: 3.5vw;
+    }
+
+    .cuadro:focus {
+        border-width: 0.3vw;
+        outline: none;
+    }
+
+    .orangeButton {
+        text-align: center;
+        width: 40vw;
+        height: 10vw;
+        background-color: #FF6C2C;
+        border-radius: 5vw;
+        margin-top: 82vw;
+        margin-left: 30vw;
+        border: none;
+        cursor: pointer;
+    }
+
+    .orangeButton:hover {
+        width: 40.5vw;
+        height: 10.2vw;
+    }
+
+    .text3 {
+        font-family: 'inter';
+        color: white;
+        font-size: 3.5vw;
+    }
+}
