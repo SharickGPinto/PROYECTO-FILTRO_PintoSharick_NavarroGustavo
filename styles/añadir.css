@@ -44,45 +44,64 @@ body {
 
 .añadir {
     gap: 0.6vw;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.añadir .enlace{
     display: flex;
     flex-direction: row;
     align-items: center;
-    text-decoration: underline orangered 0.2vw;
-    text-underline-offset: 0.4vw;
+    gap: 0.5vw;
+    text-decoration: none;
+    color: inherit;
+}
+.reportar .enlace{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vw;
+    text-decoration: none;
+    color: inherit;
 }
 
-.refrescar {
+
+.refrescar .enlace{
     gap: 0.6vw;
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-decoration: none;
+    color: inherit;
 }
-
-.icon {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.eliminar {
+.eliminar .enlace{
     gap: 0.6vw;
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-decoration: none;
+    color: inherit;
 }
 
-.reportar {
+.reportar .enlace{
     gap: 0.6vw;
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-decoration: none;
+    color: inherit;
 }
-
-.ayuda {
+.ayuda .enlace{
     gap: 0.6vw;
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-decoration: none;
 }
 
 .PNS {
