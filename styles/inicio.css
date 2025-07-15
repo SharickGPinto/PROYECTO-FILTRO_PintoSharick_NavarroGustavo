@@ -144,3 +144,162 @@ body {
     font-size: 0.7vw;
     margin-top: 2vw;
 }
+
+/* PC  */
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .section2 {
+        margin-top: 5vw;
+        border-radius: 2.5vw;
+        width: 45vw;
+        height: 35vw;
+        left: 27.5vw;
+    }
+
+    .imgKarioMedia {
+        margin-top: 2.5vw;
+        width: 4vw;
+        height: 4.5vw;
+    }
+
+    .text1_section2 {
+        margin-top: 1vw;
+        font-size: 2.2vw;
+    }
+
+    .text2_section2 {
+        margin-top: 1vw;
+        font-size: 1.1vw;
+    }
+
+    .text3_section2 {
+        margin-top: 1vw;
+        margin-left: -28vw;
+        font-size: 1.4vw;
+    }
+
+    .input1_section2 {
+        width: 33vw;
+        height: 1.7vw;
+    }
+
+    .text4_section2 {
+        margin-top: 0.7vw;
+        margin-left: -26vw;
+        font-size: 1.3vw;
+    }
+
+    .input2_section2 {
+        width: 33vw;
+        height: 1.7vw;
+    }
+
+    .orangeButton {
+        width: 14vw;
+        height: 2.5vw;
+    }
+
+    .orangeButton:hover {
+        width: 14.1vw;
+        height: 2.6vw;
+    }
+
+    .text5_section2 {
+        font-size: 1.2vw;
+    }
+
+    .text6_section2 {
+        font-size: 0.7vw;
+        margin-top: 1.5vw;
+    }
+}
+
+/* celuilar */
+@media screen and (max-width: 431px) and (max-height: 933px) {
+    .section2 {
+        margin-top: 25vw;
+        border-radius: 8vw;
+        width: 80vw;
+        height: 140vw;
+        left: 10vw;
+    }
+
+    .imgKarioMedia {
+        margin-top: 8vw;
+        width: 12vw;
+        height: 14vw;
+    }
+
+    .text1_section2 {
+        margin-top: 4vw;
+        font-size: 6vw;
+    }
+
+    .text2_section2 {
+        margin-top: 4vw;
+        font-size: 4vw;
+        padding: 0 4vw;
+    }
+
+    .text3_section2 {
+        margin-top: 6vw;
+        margin-left: -45vw;
+        font-size: 5vw;
+    }
+
+    .input1_section2 {
+        width: 65vw;
+        height: 8vw;
+        border-radius: 4vw;
+        margin-top: 2vw;
+        border-width: 0.3vw;
+        padding-left: 4vw;
+        font-size: 4vw;
+    }
+
+    .input1_section2:focus {
+        border-width: 0.3vw;
+    }
+
+    .text4_section2 {
+        margin-top: 4vw;
+        margin-left: -42vw;
+        font-size: 5vw;
+    }
+
+    .input2_section2 {
+        width: 65vw;
+        height: 8vw;
+        border-radius: 4vw;
+        margin-top: 2vw;
+        border-width: 0.3vw;
+        padding-left: 4vw;
+        font-size: 4vw;
+    }
+
+    .input2_section2:focus {
+        border-width: 0.3vw;
+    }
+
+    .orangeButton {
+        width: 35vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin-top: 8vw;
+    }
+
+    .orangeButton:hover {
+        width: 35.5vw;
+        height: 10.5vw;
+    }
+
+    .text5_section2 {
+        font-size: 5vw;
+        line-height: 10vw;
+    }
+
+    .text6_section2 {
+        font-size: 3vw;
+        margin-top: 6vw;
+        padding: 0 4vw;
+    }
+}
