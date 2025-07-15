@@ -37,21 +37,12 @@ body {
 
 .añadir {
     gap: 0.6vw;
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     align-items: center;
-}
-
-.refrescar {
-    gap: 0.6vw;
+    text-decoration: none;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.icon {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -64,6 +55,7 @@ body {
 
 .reportar {
     gap: 0.6vw;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -74,6 +66,57 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.añadir .enlace{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vw;
+    text-decoration: none;
+    color: inherit;
+}
+.reportar .enlace{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vw;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.refrescar .enlace{
+    gap: 0.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+.eliminar .enlace{
+    gap: 0.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.reportar .enlace{
+    gap: 0.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+.ayuda .enlace{
+    gap: 0.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
 }
 
 .PNS {
