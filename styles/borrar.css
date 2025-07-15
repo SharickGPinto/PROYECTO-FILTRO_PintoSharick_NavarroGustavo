@@ -565,7 +565,7 @@ body {
 }
 
 /* celular */
-@media screen and (max-width: 430px) and (max-height: 936px) {
+@media screen and (max-width: 431px) and (max-height: 933px) {
     body {
         margin-left: 2vw;
     }
