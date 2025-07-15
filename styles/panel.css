@@ -318,3 +318,163 @@ body {
 .porcentaje {
     height: 3vw;
 }
+
+/* PC */
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .topBar {
+        height: 3.5vw;
+        font-size: 1vw;
+        padding-top: 0.8vw;
+        padding-bottom: 0.8vw;
+    }
+
+    .text1 {
+        font-size: 2.2vw;
+        margin-top: 5vw;
+    }
+
+    .text2 {
+        font-size: 0.9vw;
+    }
+
+    .orangeButton {
+        width: 13vw;
+        height: 2.5vw;
+        margin-left: 43.5vw;
+    }
+
+    .text3 {
+        font-size: 1.1vw;
+    }
+
+    .cabeza {
+        font-size: 0.9vw;
+    }
+
+    .grupo1 {
+        font-size: 0.9vw;
+    }
+}
+
+/* Celular */
+@media screen and (max-width: 431px) and (max-height: 933px) {
+    body {
+        margin-left: 0;
+    }
+
+    .topBar {
+        height: 15vw;
+        font-size: 4vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2vw;
+    }
+
+    .añadir, .eliminar, .reportar, .ayuda {
+        gap: 2vw;
+    }
+
+    .PNS {
+        gap: 3vw;
+    }
+
+    .add, .reload, .help {
+        width: 6vw;
+        height: 6vw;
+    }
+
+    .delete {
+        width: 5vw;
+        height: 6vw;
+    }
+
+    .iconito {
+        width: 8vw;
+        height: 7vw;
+    }
+
+    .report {
+        width: 6.5vw;
+        height: 6vw;
+    }
+
+    .settings {
+        width: 5.5vw;
+        height: 5.5vw;
+    }
+
+    .noti {
+        width: 5.8vw;
+        height: 5.5vw;
+    }
+
+    .profile {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .text1 {
+        font-size: 8vw;
+        margin-top: 20vw;
+    }
+
+    .text2 {
+        font-size: 4vw;
+        margin-top: 2vw;
+    }
+
+    .gridp {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .grupo1 {
+        font-size: 4vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .cabeza {
+        font-size: 4vw;
+    }
+
+    .grupo2, .grupo3, .grupo4, .grupo5, .grupo6 {
+        grid-template-columns: repeat(3, 1fr);
+        width: 90vw;
+        border-radius: 5vw;
+        margin-top: 5vw;
+        padding: 2vw;
+    }
+
+    .ham1 {
+        margin-left: 85vw;
+        margin-top: -8vw;
+    }
+
+    .ham {
+        height: 6vw;
+    }
+
+    .orangeButton {
+        width: 40vw;
+        height: 12vw;
+        margin-left: 30vw;
+        margin-top: 8vw;
+        border-radius: 6vw;
+    }
+
+    .text3 {
+        font-size: 5vw;
+        padding-top: 2vw;
+    }
+
+    .porcentaje {
+        height: 10vw;
+    }
+}
