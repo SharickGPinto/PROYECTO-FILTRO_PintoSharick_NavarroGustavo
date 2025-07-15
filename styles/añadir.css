@@ -399,3 +399,143 @@ body {
     font-family: 'inter';
     font-size: 1vw;
 }
+
+/* pc */
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .topBar {
+        height: 4vw;
+        font-size: 1.1vw;
+    }
+    
+    .text1 {
+        font-size: 2.5vw;
+        margin-top: 6vw;
+    }
+    
+    .text2 {
+        font-size: 1vw;
+        margin-top: 0.5vw;
+    }
+    
+    .input1, .input2, .input3, .input6, .input7, .input8, .input9 {
+        width: 90vw;
+        height: 1.7vw;
+        font-size: 0.9vw;
+    }
+    
+    .input4 {
+        width: 45vw;
+        height: 1.7vw;
+        font-size: 1vw;
+    }
+    
+    .input5 {
+        width: 44vw;
+        height: 1.7vw;
+        font-size: 1vw;
+    }
+    
+    .orangeButton {
+        width: 15vw;
+        height: 2.5vw;
+        margin-left: 80vw;
+    }
+}
+
+/* celular*/
+@media screen and (max-width: 430px) and (max-height: 936px) {
+    .topBar {
+        height: 12vw;
+        font-size: 3vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    
+    .add, .reload, .delete, .report, .help {
+        width: 4vw;
+        height: 4vw;
+    }
+    
+    .iconito {
+        width: 6vw;
+        height: 5vw;
+    }
+    
+    .settings {
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+    
+    .noti {
+        width: 4vw;
+        height: 3.5vw;
+    }
+    
+    .profile {
+        width: 8vw;
+        height: 8vw;
+    }
+    
+    .text1 {
+        font-size: 8vw;
+        margin-top: 20vw;
+    }
+    
+    .text2 {
+        font-size: 4vw;
+        margin-top: 2vw;
+    }
+    
+    .grupo1, .grupo2, .grupo3, .grupo5, .grupo6, .grupo7, .grupo8 {
+        font-size: 3vw;
+        margin-top: 2vw;
+    }
+    
+    .text3, .text4, .text5, .text6, .text7, .text8, .text9 {
+        margin-left: 8vw;
+        margin-bottom: 1vw;
+    }
+    
+    .input1, .input2, .input3, .input6, .input7, .input8, .input9 {
+        width: 85vw;
+        height: 8vw;
+        font-size: 3vw;
+        padding-left: 3vw;
+        border-radius: 4vw;
+    }
+    
+    .grupo4 {
+        display: block;
+        position: relative;
+        margin-top: 2vw;
+    }
+    
+    .input4, .input5 {
+        width: 85vw;
+        height: 8vw;
+        font-size: 3vw;
+        padding-left: 3vw;
+        border-radius: 4vw;
+        margin-left: 0;
+        margin-top: 1vw;
+    }
+    
+    .orangeButton {
+        width: 35vw;
+        height: 10vw;
+        margin-left: 32.5vw;
+        margin-top: 8vw;
+        border-radius: 5vw;
+    }
+    
+    .orangeButton:hover {
+        width: 35.2vw;
+        height: 10.1vw;
+    }
+    
+    .text10 {
+        font-size: 3vw;
+    }
+}
