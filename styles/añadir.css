@@ -400,3 +400,8 @@ body {
     font-family: 'inter';
     font-size: 1vw;
 }
+
+input:focus {
+    border-width: 0.1vw;
+    outline: none;
+}
