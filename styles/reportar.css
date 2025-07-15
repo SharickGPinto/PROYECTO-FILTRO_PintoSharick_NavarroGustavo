@@ -34,6 +34,10 @@ body {
     padding-bottom: 1vw;
 }
 
+.burguer {
+    opacity: 0;
+}
+
 .añadir {
     gap: 0.6vw;
     display: inline-block;
@@ -283,7 +287,7 @@ body {
 }
 
 /* celular*/
-@media screen and (max-width: 430px) and (max-height: 936px) {
+@media screen and (max-width: 431px) and (max-height: 933px) {
     .topBar {
         height: 12vw;
         font-size: 3vw;
@@ -294,8 +298,20 @@ body {
     }
 
     .add, .reload, .delete, .report, .help {
-        width: 4vw;
+        opacity: 0;
+    }
+
+    .añadir, .refrescar, .eliminar, .reportar, .ayuda {
+        opacity: 0;
+    }
+
+    .burguer{
+        opacity: 1;
+    }
+
+    .hamburguesa {
         height: 4vw;
+        margin-top: 2vw;
     }
 
     .iconito {
@@ -304,8 +320,7 @@ body {
     }
 
     .settings {
-        width: 3.5vw;
-        height: 3.5vw;
+        opacity: 0;
     }
 
     .noti {

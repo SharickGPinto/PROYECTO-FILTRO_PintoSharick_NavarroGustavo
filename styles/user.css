@@ -112,7 +112,7 @@ body {
 }
 
 /*movil*/
-@media screen and (max-width: 430px) and (max-height: 936px) {
+@media screen and (max-width: 430px) and (max-height: 932px) {
     .section1 {
         margin-top: 35vw;
         border-radius: 8vw;
