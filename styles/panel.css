@@ -46,6 +46,28 @@ body {
     align-items: center;
 }
 
+.eliminar {
+    gap: 0.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.reportar {
+    gap: 0.6vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ayuda {
+    gap: 0.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .añadir .enlace{
     display: flex;
     flex-direction: row;

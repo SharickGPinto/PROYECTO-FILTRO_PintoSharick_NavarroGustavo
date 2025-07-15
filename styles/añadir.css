@@ -51,6 +51,30 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: underline orangered 0.2vw;
+    text-underline-offset: 0.4vw;
+}
+
+.eliminar {
+    gap: 0.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.reportar {
+    gap: 0.6vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ayuda {
+    gap: 0.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .añadir .enlace{
