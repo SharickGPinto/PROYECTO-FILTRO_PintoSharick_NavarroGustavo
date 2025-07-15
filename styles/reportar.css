@@ -71,6 +71,14 @@ body {
     text-decoration: none;
     color: inherit;
 }
+.eliminar .enlace{
+    gap: 0.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
 
 .icon {
     display: flex;
