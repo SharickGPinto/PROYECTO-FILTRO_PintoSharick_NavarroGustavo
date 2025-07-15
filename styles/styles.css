@@ -60,3 +60,29 @@ body {
         opacity: 0;
     }
 }
+
+/* PC */
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .imagencita {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .section1 {
+        width: 8vw;
+        height: 8vw;
+    }
+}
+
+/* Celular */
+@media screen and (max-width: 431px) and (max-height: 933px) {
+    .imagencita {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .section1 {
+        width: 4vw;
+        height: 4vw;
+    }
+}
