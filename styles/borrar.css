@@ -26,6 +26,7 @@ body {
 }
 
 .topBar {
+    margin-left: -1vw;
     width: 100%;
     height: 4vw;
     display: flex;
@@ -58,11 +59,12 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-decoration: underline orangered 0.2vw;
+    text-underline-offset: 0.4vw;
 }
 
 .reportar {
     gap: 0.6vw;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -92,7 +94,6 @@ body {
     color: inherit;
 }
 
-
 .refrescar .enlace{
     gap: 0.6vw;
     display: flex;
@@ -118,6 +119,7 @@ body {
     text-decoration: none;
     color: inherit;
 }
+
 .ayuda .enlace{
     gap: 0.6vw;
     display: flex;
