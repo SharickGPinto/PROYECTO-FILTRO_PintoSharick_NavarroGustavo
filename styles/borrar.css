@@ -159,7 +159,6 @@ body {
 .grupo2 {
     width: 92vw;
     border: 0.1vw black solid;
-    justify-content: space-between;
     display: flex;
     margin-left: 2vw;
     border-radius: 2vw;
@@ -167,108 +166,146 @@ body {
     font-family: 'inter';
     padding-left: 1vw;
     padding-right: 1vw;
-
+    margin-top: 0.5vw;
 }
 
-.imgP {
+.imgP1 {
     height: 3.5vw;
     margin-top: -1vw;
 }
 
-.cabeza {
+.cabeza1_1 {
     font-size: 1.2vw;
 }
 
-.garbage {
-    height: 3vw;
-    margin-top: -43vw;
-    position: relative;
-    margin-left: 95.6vw;
+.cabeza1_2 {
+    margin-left: 1vw;
+    font-size: 1.2vw;
 }
 
-/*
-.grupo2{
-    text-align: center;
-    align-items: center;
-    font-family: 'inter';
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    border: 1px solid black;
-    width: 95vw;
-    border-radius: 8vw;
-    margin-top: 2vw;
-}
-.ham1{
-    margin-left: 96vw;
-    margin-top: -2.7vw;
-}
-.grupo3{
-    text-align: center;
-    align-items: center;
-    font-family: 'inter';
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    border: 1px solid black;
-    width: 95vw;
-    border-radius: 8vw;
-    margin-top: 2vw;  
+.cabeza1_3 {
+    font-size: 1.2vw;
+    margin-left: 1vw;
 }
 
-.grupo4{
-    text-align: center;
-    align-items: center;
-    font-family: 'inter';
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    border: 1px solid black;
-    width: 95vw;
-    border-radius: 8vw;
-    margin-top: 2vw; 
+.cabeza1_4 {
+    margin-left: 1vw;
+    font-size: 1.2vw;
 }
 
-.grupo5{
-    text-align: center;
-    align-items: center;
-    font-family: 'inter';
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    border: 1px solid black;
-    width: 95vw;
-    border-radius: 8vw;
-    margin-top: 2vw;  
+.cabeza1_5 {
+    font-size: 1.2vw;
+    margin-left: 1vw;
 }
 
-.grupo6{
-    text-align: center;
-    align-items: center;
-    font-family: 'inter';
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    border: 1px solid black;
-    width: 95vw;
-    border-radius: 8vw;
-    margin-top: 2vw;
+.cabeza1_6 {
+    margin-left: 1vw;
+    font-size: 1.2vw;
 }
 
-.grupo7{
-    text-align: center;
-    align-items: center;
-    font-family: 'inter';
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    border: 1px solid black;
-    width: 95vw;
-    border-radius: 8vw;
-    margin-top: 2vw;
+.cabeza1_7 {
+    font-size: 1.2vw;
+    margin-left: 1vw;
 }
 
-.orangeButton{
+.cabeza1_8 {
+    font-size: 1.2vw;
+    margin-left: 1vw;
+}
+
+.cabeza1_9 {
+    margin-left: 1vw;
+    font-size: 1.2vw;
+}
+
+
+.grupo3 {
+    width: 92vw;
+    border: 0.1vw black solid;
+    display: flex;
+    margin-left: 2vw;
+    border-radius: 2vw;
+    padding-top: 1.5vw;
+    font-family: 'inter';
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 1vw;
+}
+
+.imgP2 {
+    height: 3.5vw;
+    margin-top: -1vw;
+}
+
+.grupo4 {
+    width: 92vw;
+    border: 0.1vw black solid;
+    display: flex;
+    margin-left: 2vw;
+    border-radius: 2vw;
+    padding-top: 1.5vw;
+    font-family: 'inter';
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 1vw;
+}
+
+.imgP3 {
+    height: 3.5vw;
+    margin-top: -1vw;
+}
+
+.grupo5 {
+    width: 92vw;
+    border: 0.1vw black solid;
+    display: flex;
+    margin-left: 2vw;
+    border-radius: 2vw;
+    padding-top: 1.5vw;
+    font-family: 'inter';
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 1vw;
+}
+
+.imgP4 {
+    height: 3.5vw;
+    margin-top: -1vw;
+}
+
+.grupo6 {
+    width: 92vw;
+    border: 0.1vw black solid;
+    display: flex;
+    margin-left: 2vw;
+    border-radius: 2vw;
+    padding-top: 1.5vw;
+    font-family: 'inter';
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 1vw;
+}
+
+.imgP5 {
+    height: 3.5vw;
+    margin-top: -1vw;
+}
+
+.orangeButton {
     text-align: center;
     width: 15vw;
-    height: 2.5vw;
+    height: 3vw;
     background-color: #FF6C2C;
     border-radius: 2vw;
     margin-top: 2vw;
     margin-left: 42vw;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
-*/
+
+.text3 {
+    font-family: 'inter';
+    font-size: 1.5vw;
+}
