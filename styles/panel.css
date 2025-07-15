@@ -3,13 +3,13 @@
     src: url(../fonts/myriadPro_Regular.OTF);
 }
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
 }
 
-body{
+body {
     width: 100%;
     height: auto;
     overflow-x: hidden;
@@ -32,6 +32,7 @@ body{
     padding-right: 3vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
+    background-color: white;
 }
 
 .añadir {
@@ -149,21 +150,21 @@ body{
 }
 
 
-.text1{
+.text1 {
     font-family: 'inter';
     font-size: 2.5vw;
     text-align: center;
     margin-top: 6vw;
 }
 
-.text2{
+.text2 {
     text-align: center;
     font-family: 'inter';
     font-size: 1vw;
     margin-top: 0.5vw;
 }
 
-.gridp{
+.gridp {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     gap: 1vw;
@@ -171,8 +172,8 @@ body{
     margin-right: 8vw;
 }
 
-.grupo1{
-    
+.grupo1 {
+
     width: 100%;
     height: 1vw;
     display: flex;
@@ -188,13 +189,13 @@ body{
     position: relative;
 }
 
-.cabeza{
+.cabeza {
     font-size: 1vw;
     text-align: center;
 }
 
 
-.grupo2{
+.grupo2 {
     text-align: center;
     align-items: center;
     font-family: 'inter';
@@ -205,47 +206,13 @@ body{
     border-radius: 8vw;
     margin-top: 2vw;
 }
-.ham1{
+
+.ham1 {
     margin-left: 96vw;
     margin-top: -2.7vw;
 }
-.grupo3{
-    text-align: center;
-    align-items: center;
-    font-family: 'inter';
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    border: 1px solid black;
-    width: 95vw;
-    border-radius: 8vw;
-    margin-top: 2vw;  
-}
 
-.grupo4{
-    text-align: center;
-    align-items: center;
-    font-family: 'inter';
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    border: 1px solid black;
-    width: 95vw;
-    border-radius: 8vw;
-    margin-top: 2vw; 
-}
-
-.grupo5{
-    text-align: center;
-    align-items: center;
-    font-family: 'inter';
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    border: 1px solid black;
-    width: 95vw;
-    border-radius: 8vw;
-    margin-top: 2vw;  
-}
-
-.grupo6{
+.grupo3 {
     text-align: center;
     align-items: center;
     font-family: 'inter';
@@ -257,7 +224,7 @@ body{
     margin-top: 2vw;
 }
 
-.grupo7{
+.grupo4 {
     text-align: center;
     align-items: center;
     font-family: 'inter';
@@ -269,12 +236,60 @@ body{
     margin-top: 2vw;
 }
 
-.orangeButton{
+.grupo5 {
+    text-align: center;
+    align-items: center;
+    font-family: 'inter';
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    border: 1px solid black;
+    width: 95vw;
+    border-radius: 8vw;
+    margin-top: 2vw;
+}
+
+.grupo6 {
+    text-align: center;
+    align-items: center;
+    font-family: 'inter';
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    border: 1px solid black;
+    width: 95vw;
+    border-radius: 8vw;
+    margin-top: 2vw;
+}
+
+.grupo7 {
+    text-align: center;
+    align-items: center;
+    font-family: 'inter';
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    border: 1px solid black;
+    width: 95vw;
+    border-radius: 8vw;
+    margin-top: 2vw;
+}
+
+.orangeButton {
     text-align: center;
     width: 15vw;
-    height: 2.5vw;
+    height: 3vw;
     background-color: #FF6C2C;
     border-radius: 2vw;
     margin-top: 2vw;
     margin-left: 42vw;
+    padding-top: 0.5vw;
+    margin-bottom: 3vw;
+}
+
+.porcentaje {
+    width: 2vw;
+}
+
+.text3 {
+    color: white;
+    font-family: 'inter';
+    font-size: 1.4vw;
 }
