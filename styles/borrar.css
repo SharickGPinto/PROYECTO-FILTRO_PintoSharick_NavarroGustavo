@@ -26,6 +26,7 @@ body {
 }
 
 .topBar {
+    margin-left: -1vw;
     width: 100%;
     height: 4vw;
     display: flex;
@@ -92,7 +93,6 @@ body {
     color: inherit;
 }
 
-
 .refrescar .enlace{
     gap: 0.6vw;
     display: flex;
@@ -118,6 +118,7 @@ body {
     text-decoration: none;
     color: inherit;
 }
+
 .ayuda .enlace{
     gap: 0.6vw;
     display: flex;
